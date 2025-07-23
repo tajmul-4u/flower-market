@@ -25,7 +25,6 @@
     list-style: none;
     width: 415px;
     height: 60px;
-    /* gap: 48px; */
     align-items: center;
 }
 .list-items{
@@ -58,4 +57,47 @@
 }
 .title-style{
     color: #E95A08;
+}
+
+
+/* Plant Section  */
+.plant-section{
+    width: 1140px;
+    height: 1187px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.plant-content{
+    text-align: center;
+    width: 1140px;
+    height: 138px;
+}
+
+.plant-card-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 49px;
+}
+.plant-card{
+    width: 270px;
+    height: 485px;
+    margin-top: 30px;
+    text-align: center;
+}
+.plant-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+.btn{
+    width: 270px;
+    height: 50px;
+    background-color:#E95A08;
+    color: white;
+    border: none;
+}
+.plant-text{
+    font-weight: 600;
+    font-size: 22px;
+
 }
