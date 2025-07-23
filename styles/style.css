@@ -101,3 +101,33 @@
     font-size: 22px;
 
 }
+
+
+/* Plant Lover Section */
+.plant-lover-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px;
+    width: 1140px;
+    height: 597px;
+    margin-right: 150px;
+    margin-left: 150px;
+    gap: auto;
+}
+.lover-image{
+    width: 540px;
+    height: 597px;
+}
+.lover-content{
+    width: 540px;
+    height: 521px;
+}
+.lover-item{
+    margin: 50px;
+}
+.lover-content h3{
+    width: 540px;
+    height: 137px;
+    font-size: 50px;
+    font-weight: bold;
+}
