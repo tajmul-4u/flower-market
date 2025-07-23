@@ -32,3 +32,30 @@
     text-decoration: none;
     padding: 18px;
 }
+
+
+/* Hero-Section */
+.hero-item{
+    display: flex;
+    width: 1140px;
+    height: 462px;
+    margin-top: 120px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.hero-content{
+    width: 570px;
+    height: 299px;
+}
+.hero-image{
+    width: 570px;
+    height: 355px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+.title-style{
+    color: #E95A08;
+}
