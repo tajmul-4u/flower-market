@@ -260,3 +260,40 @@ top: -20px;
     color: white;
     text-align: center;
 }
+
+
+/* Footer Section */
+.common{
+    text-decoration: none;
+    list-style: none;
+}
+.footer-section{
+    display: flex;
+    width: 1120px;
+    height: 248px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.footer-bar{
+    display: flex;
+}
+.link ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.web-logo{
+    width: 360px;
+    height: 180px;
+    padding-right: 110px;
+}
+.footer-bar-1,.footer-bar-2{
+    margin-right: 30px;
+
+}
+
+.footer-bar-1 ul,.footer-bar-2 ul{
+    display: grid;
+   grid-auto-flow: row;
+   gap: 20px;
+}
