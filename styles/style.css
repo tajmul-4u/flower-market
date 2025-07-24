@@ -224,3 +224,39 @@ top: -20px;
     font-size: 28px;
     color: white;
 }
+
+/* Input box section */
+.input-box{
+    background-image: url(../assets/news-letter-bg.png);
+     width: 1440px;
+     height: 533px;
+     position: relative;
+     margin-top: 121px;
+     
+}
+.input-title{
+     width: 830px;
+     height: 141px;
+     position: absolute;
+     top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.input-title input{
+    width: 644px;
+    height: 50px;
+}
+.btn{
+    width: 186px;
+    height: 55px;
+}
+.inline{
+    display: flex;
+}
+.input-title h1{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
